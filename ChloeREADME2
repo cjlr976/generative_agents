@@ -1,0 +1,24 @@
+From scratch
+1.	Download these Apps
+a.	VS code
+b.	PIP
+c.	Python
+d.	Git
+e.	Github
+2.	Python path should be on and installed for all users
+a.	C:\Program Files\Python312\Scripts\
+b.	C:\Program Files\Python312\
+c.	Make sure this is in environmental variables
+3.	In Github; clone repository
+a.	All files should be saved under here
+4.	In VS Code
+a.	Python Interpreter -> .venv
+b.	Make sure that VS code is using the same shell as cmd (Windows Powershell)
+5.	Import the libraries using pip install –r locationofrequirementtext
+a.	Use the excel I put inside of onedrive
+b.	pip install google-generativeai for Gemini
+6.	Django.conf.urls import url does not work
+a.	Change to
+from django.urls import re_path
+b.	Under urlpatterns change path to url to re_path
+7.	Got to cmd and type “set API_KEY= (then the key)”
